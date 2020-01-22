@@ -319,3 +319,41 @@ D、No modifier can be used
 解析：static 静态成员变量(在定义这个变量的类的实例中,这个变量是唯一的,即多个实例间这个变量为共享的)
 final 成员常量(必须在定义时或在构造方法中赋初值)
 final static 静态成员常量,必须在定义这个常量时给定其初始化值
+
+## 17.以下哪个约束符可用于定义成员常量？（）
+A、 static
+
+B、final
+
+C、abstract
+
+D、No modifier can be used
+
+答案 B
+解析：static 静态成员变量(在定义这个变量的类的实例中,这个变量是唯一的,即多个实例间这个变量为共享的)
+final 成员常量(必须在定义时或在构造方法中赋初值)
+final static 静态成员常量,必须在定义这个常量时给定其初始化值
+
+## 18.在使用interface声明一个接口时，只可以使用（）修饰符修饰该接口
+A private
+
+B protected
+
+C private protected
+
+D public
+
+答案：D
+解析：接口必须要具体类实现才有意义，所以必须是public。
+
+## 19.java语言使用的字符码集是()
+A ASCII
+
+B BCD
+
+C DCB
+
+D Unicode
+
+答案：D
+解析：Java语言使用的是Unicode字符集，ASCII是国际上使用最广泛的字符编码

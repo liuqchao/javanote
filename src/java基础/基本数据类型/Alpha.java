@@ -1,4 +1,4 @@
-package javase.basicType;
+package java基础.基本数据类型;
 
 public class Alpha {
     public void foo() {
