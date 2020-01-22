@@ -240,3 +240,82 @@ D．没有任何输出
 
 解析：
 本试题属于 本身该试题就有严重的语法程序错误。
+
+##13 以下哪些定义的变量是正确的（）
+
+A int 1abc;
+
+B char abc1;
+
+C long #abc;
+
+D boolean $abc;
+
+E：String_123456asdfghjklqwertyuiopzmnbvasdf12345;
+
+答案 B D
+
+解析：
+
+因为java中变量名必须是一个以字母开头并由字母或者数字构成的序列。
+字母包括 A-Z,a-z,_,$或在某种语言中表示的字母的任何Unicode字符。变量名中所有的字符都是有意义的，并且大小写敏感，变量名基本上没有限制.
+##14 代码如下
+```java
+double a = 15.0;
+     int b=2;
+      system.out.println(a+b);
+```
+打印出来的数值类型为（）
+A int
+
+B float
+
+C String
+
+D double
+
+答案 D
+
+解析：
+如果两个操作数中有一个是double类型，另一个操作数就会自动转换为double类型。
+
+## 15.下面float的赋值语句错误的是？()
+A:float f=3.4;
+
+B:float f=3.4F;
+
+C:float f=1.0;
+
+D:float f=1;
+
+答:AC
+
+解析
+
+3.4是双精度数，将双精度型（double）赋值给浮点型（float）属于下转型（down-casting，也称为窄化）会造成精度损失，因此需要强制类型转换float f =(float)3.4; 或者写成float f =3.4F;
+float a = 1;这里的1是整形，当赋值给一个float时，存在一个隐式转换，不损失精度。
+
+float a = 1f;
+
+1f就是float类型的。
+
+如果你这样定义
+
+float f = 1.0;
+
+肯定会出错。 因为1.0默认是double类型的。double范围比float大。为了不损失精度，不会自动转换。这是必须这样写
+float f = 1.0f;
+
+## 16.以下哪个约束符可用于定义成员常量？（）
+A、 static
+
+B、final
+
+C、abstract
+
+D、No modifier can be used
+
+答案 B
+解析：static 静态成员变量(在定义这个变量的类的实例中,这个变量是唯一的,即多个实例间这个变量为共享的)
+final 成员常量(必须在定义时或在构造方法中赋初值)
+final static 静态成员常量,必须在定义这个常量时给定其初始化值

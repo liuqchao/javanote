@@ -58,3 +58,26 @@ public String toString() {
 return new String(value, 0, count); 
 }
 ```
+
+## 4.String s =new String (“xyz”);这句一共创建了几个String Object？
+A. 1
+
+B. 2
+
+C. 3
+
+D. 4
+
+答案:B
+
+解析：
+一共创建了两个对象，一个是”xyz”，为缓冲区对象。另一个是new出来的String 对象。这两个对象的值相同，但不是同一个对象。
+
+## 5.String 是最基本的数据类型吗？()
+A：是
+
+B：不是
+
+答案：B
+String类并不是基本数据类，而是一个类（class），是C++、java等编程语言中的字符串。
+String类是不可变的，对String类的任何改变，都是返回一个新的String类对象。 String 对象是 System.Char 对象的有序集合，用于表示字符串。String 对象的值是该有序集合的内容，并且该值是不可变的。
