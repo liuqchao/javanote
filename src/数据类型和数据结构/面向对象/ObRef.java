@@ -1,4 +1,4 @@
-package java基础.面向对象;
+package 数据类型和数据结构.面向对象;
 
 interface IFace{}
 class CFace implements IFace{}
