@@ -10,6 +10,7 @@ public class JavaCourseFactory implements CourseFactory {
     }
 
     public IVideo createVideo() {
+        System.out.println();
         return new JavaVideo();
     }
 }
